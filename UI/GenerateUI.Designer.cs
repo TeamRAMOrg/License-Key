@@ -1,7 +1,7 @@
 ﻿
 namespace LicenseKey
 {
-    partial class About
+    partial class GenerateUI
     {
         /// <summary>
         /// Required designer variable.
@@ -31,14 +31,14 @@ namespace LicenseKey
         {
             this.SuspendLayout();
             // 
-            // Generate
+            // GenerateUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(437, 215);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            this.Name = "Generate";
+            this.Name = "GenerateUI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Generate";
             this.ResumeLayout(false);

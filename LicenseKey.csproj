@@ -46,12 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UI\RegistrationUI.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UI\RegistrationUI.Designer.cs">
-      <DependentUpon>RegistrationUI.cs</DependentUpon>
-    </Compile>
     <Compile Include="UI\AboutUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,9 +66,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="UI\RegistrationUI.resx">
+    <Compile Include="UI\RegistrationUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\RegistrationUI.Designer.cs">
       <DependentUpon>RegistrationUI.cs</DependentUpon>
-    </EmbeddedResource>
+    </Compile>
     <EmbeddedResource Include="UI\AboutUI.resx">
       <DependentUpon>AboutUI.cs</DependentUpon>
     </EmbeddedResource>
@@ -93,6 +90,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UI\RegistrationUI.resx">
+      <DependentUpon>RegistrationUI.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

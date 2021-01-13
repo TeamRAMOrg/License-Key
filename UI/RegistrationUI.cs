@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LicenseKey
+namespace LicenseKey.UI
 {
-    public partial class About : Form
+    public partial class RegistrationUI : Form
     {
-        public About()
+        public RegistrationUI()
         {
             InitializeComponent();
         }

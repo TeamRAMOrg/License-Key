@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace LicenseKey
 {
-    public partial class About : Form
+    public partial class GenerateUI : Form
     {
-        public About()
+        public GenerateUI()
         {
             InitializeComponent();
         }
