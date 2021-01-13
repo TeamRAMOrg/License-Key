@@ -16,5 +16,10 @@ namespace LicenseKey
         {
             InitializeComponent();
         }
+
+        private void btnGenerate_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
