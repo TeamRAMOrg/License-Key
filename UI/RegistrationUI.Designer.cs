@@ -94,6 +94,7 @@ namespace LicenseKey.UI
             this.Name = "RegistrationUI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registration";
+            this.Load += new System.EventHandler(this.RegistrationUI_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
