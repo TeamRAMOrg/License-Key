@@ -42,7 +42,7 @@ namespace LicenseKey.UI
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(75, 23);
             this.btnOk.TabIndex = 11;
-            this.btnOk.Text = "Ok";
+            this.btnOk.Text = "OK";
             this.btnOk.UseVisualStyleBackColor = true;
             this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
@@ -66,6 +66,7 @@ namespace LicenseKey.UI
             // 
             this.txtProductID.Location = new System.Drawing.Point(91, 27);
             this.txtProductID.Name = "txtProductID";
+            this.txtProductID.ReadOnly = true;
             this.txtProductID.Size = new System.Drawing.Size(281, 20);
             this.txtProductID.TabIndex = 10;
             // 
