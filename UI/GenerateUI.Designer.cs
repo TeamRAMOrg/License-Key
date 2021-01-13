@@ -112,7 +112,8 @@ namespace LicenseKey
             this.cmbLicenseType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbLicenseType.FormattingEnabled = true;
             this.cmbLicenseType.Items.AddRange(new object[] {
-            "Full"});
+            "Full",
+            "Trial"});
             this.cmbLicenseType.Location = new System.Drawing.Point(112, 64);
             this.cmbLicenseType.Name = "cmbLicenseType";
             this.cmbLicenseType.Size = new System.Drawing.Size(116, 21);
@@ -137,6 +138,7 @@ namespace LicenseKey
             this.Name = "GenerateUI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Generate";
+            this.Load += new System.EventHandler(this.GenerateUI_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
