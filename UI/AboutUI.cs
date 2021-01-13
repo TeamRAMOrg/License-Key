@@ -42,8 +42,9 @@ namespace LicenseKey.UI
                 {
                     lblProductName.Text = "Team RAM";
                     lblProductKey.Text = productKey;
+                    lblLicenseType.Text = kv.Type.ToString();
                     if (kv.Type == LicenseType.TRIAL)
-                        lblLicenseType.Text = string.Format("{0} days", (kv.Expiration - DateTime.Now.Date).Days);
+                        lblExpDays.Text = string.Format("{0} days", (kv.Expiration - DateTime.Now.Date).Days);
                     else
                         lblLicenseType.Text = "Full";
                 }
